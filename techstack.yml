@@ -1,0 +1,255 @@
+repo_name: yasoo-exe/fullStackOpenPractice
+report_id: bfa516f3c801d6561f428c65314f481e
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-02T11:00:04+00:00'
+requested_by: yasoo-exe
+provider: github
+branch: main
+detected_tools_count: 18
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-03-01 13:48:50.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice
+  detection_source: Repo Metadata
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-03-01 13:48:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.33.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-03-01 13:48:50.000000000 Z
+- name: json-server
+  description: Serves JSON files through REST routes
+  package_url: https://www.npmjs.com/json-server
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17570/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 5.0.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/yasoo-exe/fullStackOpenPractice/blob/main/notesApp/package.json
+  detection_source: notesApp/package.json
+  last_updated_by: yasoo-exe
+  last_updated_on: 2024-02-04 16:48:23.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 5.0.12
