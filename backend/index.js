@@ -1,5 +1,9 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+app.use(express.json());
+app.use(cors());
+app.use(express.static("dist")) //middle ware to show a static page
 
 let notes = [
   {
@@ -44,8 +48,6 @@ app.delete("/api/notes/:id", (req, res) => {
 });
 
 //add new note
-app.use(express.json());
-
 const generateId = () => {
   const maxId = notes.length > 0 ? Math.max(...notes.map((n) => n.id)) : 0;
   return maxId + 1;
@@ -71,7 +73,7 @@ app.post("/api/notes", (request, response) => {
   response.json(note);
 });
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running, port ${PORT}`);
 });
