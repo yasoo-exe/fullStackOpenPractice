@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 app.use(express.json());
 app.use(cors());
-app.use(express.static("dist")) //middle ware to show a static page
+app.use(express.static("dist")); //middle ware to show a static page
 
 let notes = [
   {
